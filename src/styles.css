@@ -15,8 +15,36 @@ body {
     margin: 0;
     font-family: 'Outfit', sans-serif;
     font-size: 15px;
+    background: var(--lightgray);
 }
 
+.container {
+    width: 90%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin: 60px auto;
+    background: var(--white);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+.main--img{
+    width: 250px;
+    border-radius: 10px;
+}
+
+.main--title{
+color: var(--darkblue);
+font-size: 1.3rem;
+line-height: 1.5rem;
+}
+
+.main--content{
+color: var(--grayishblue);
+text-align: center;
+}
 
 
 
