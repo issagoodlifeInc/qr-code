@@ -22,7 +22,7 @@ body {
     width: 90%;
     max-width: 300px;
     border-radius: 10px;
-    margin: 60px auto;
+    margin: 60px auto 20px;
     background: var(--white);
     padding: 20px;
     display: flex;
@@ -46,13 +46,10 @@ color: var(--grayishblue);
 text-align: center;
 }
 
-
-
-
-
 .attribution {
     font-size: 11px;
     text-align: center;
+    padding-bottom: 10px;
 }
 
 .attribution a {
